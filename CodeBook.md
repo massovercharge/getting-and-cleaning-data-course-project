@@ -39,7 +39,7 @@ Variable name   | Description/value                       | Type
 `method`        | mean or std (standard deviation)        | factor
 `axis`          | X, Y, Z or non                          | factor
 
-Each of the features are associated with a subject and an activity, the columns containing this information is described in the table below.
+Each of the features are associated with a subject and an activity, the columns containing this information is described in `Table 2`.
 
 **Table 2**
 
