@@ -26,8 +26,8 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 
 ## Variable description
 Column names describe the variables by a series of discrete descriptive factors. They appear in the order presented in `Table 1` from top to bottom. Each of the measurements are associated with a subject and an activity, see `Table 2` for an overview.
-
 **Table 1**
+
 Variable name   | Description/value                       | Type    
 ----------------|-----------------------------------------|---------
 `dimension`     | frequency or time                       | factor  
@@ -39,8 +39,8 @@ Variable name   | Description/value                       | Type
 `axis`          | X, Y, Z or non                          | factor
 
 Each of the features are associated with a subject and an activity, the columns containing this information is described in the table below.
-
 **Table 2**
+
 Variable name | Description       | Type    | value
 --------------|-------------------|---------|-------------
 `activityID`  | identifier        | int     | 1-6
