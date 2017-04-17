@@ -1,7 +1,6 @@
 ## Load required packages
 library(data.table)
 library(memisc)
-library(knitr)
 
 
 if (!file.exists("UCI_HAR_Dataset.zip")){
@@ -91,15 +90,4 @@ write.table(tidy_data, "tidy_data.txt", row.names = F, sep = "\t")
 ## Make code book
 tidy_data_set <- data.set(tidy_data)
 codebook_md <- codebook(tidy_data_set)
-Write(codebook_md, file="CodeBook.md")
-
-
-
-
-
-
-
-
-
-
-
+Write(codebook_md, file="CodeBookAuto.md")
