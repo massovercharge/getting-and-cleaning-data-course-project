@@ -1,5 +1,8 @@
 ## Load required packages
 library(data.table)
+library(memisc)
+library(knitr)
+
 
 if (!file.exists("UCI_HAR_Dataset.zip")){
   download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2UCI%20HAR%20Dataset.zip", "UCI_HAR_Dataset.zip")
@@ -82,4 +85,21 @@ subset_data <- data.table(subset_data)
 tidy_data <- aggregate(. ~subjectID + activity, subset_data, mean)
 
 # Write data to tab separated txt file
-write.table(tidy_data, "tidy_data.txt", row.names = T, sep = "\t")
+write.table(tidy_data, "tidy_data.txt", row.names = F, sep = "\t")
+
+
+## Make code book
+tidy_data_set <- data.set(tidy_data)
+codebook_md <- codebook(tidy_data_set)
+Write(codebook_md, file="CodeBook.md")
+
+
+
+
+
+
+
+
+
+
+
