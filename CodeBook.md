@@ -80,8 +80,11 @@ Based on the subset_data object a mean is calculated for all features for each s
 
 ## Measurements contained in "tidy_data.txt"
 
-All the measurements presented in "tidy_data.txt" is a mean of the original data set for all aticivity and subjects. The values are numeric and contained between -1 and 1.
+All the measurements presented in "tidy_data.txt" is a mean of the original data set for all aticivity and subjects (column 4-89). The values are numeric and contained between -1 and 1. Column 1-3 are activity and subject identifiers as described in `Table 2`.
 
+ [1] "subjectID"                                             
+ [2] "activity"                                              
+ [3] "activityID"   
  [4] "TimeBodyAccelerometer-Mean()-X"                        
  [5] "TimeBodyAccelerometer-Mean()-Y"                        
  [6] "TimeBodyAccelerometer-Mean()-Z"                        
