@@ -33,7 +33,7 @@ Variable name   | Description/value                       | Type
 ----------------|-----------------------------------------|---------
 `dimension`     | frequency or time                       | factor  
 `source`        | Body, BodyBody or gravity               | factor  
-`type`          | Accelerromater or Gyro                  | factor
+`type`          | Accelerometer or Gyroscope              | factor
 `jerk`          | Jerk or non-Jerk (can be jerk or not)   | factor
 `magnitude`     | Mag or non-Mag (can be Mag or not)      | factor
 `method`        | mean or std (standard deviation)        | factor
