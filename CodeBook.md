@@ -42,7 +42,7 @@ Each of the features are associated with a subject and an activity.
 Variable name | Description       | Type    | value
 --------------|-------------------|---------|-------------
 `activityID`  | identifier        | int     | 1-6
-`activity`    | descriptive label | factor  | LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS or WALKING_UPSTAIRS
+`activity`    | descriptive label | factor  | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING
 `subjectID`   | identifier        | int     | 1-30
 
 
