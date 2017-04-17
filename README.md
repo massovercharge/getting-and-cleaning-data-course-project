@@ -20,4 +20,4 @@ The project includes four files in total
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Please note that the run_analysis.R will perform the analysis in the currently defined working directory by default. If this is not practical beware that you will need to chnage the working directory manually.
+Please note that the run_analysis.R will perform the analysis in the currently defined working directory by default. If this is not practical beware that you will need to chnage the working directory manually. run_analysis.R also assums that the data is available from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
