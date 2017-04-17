@@ -25,8 +25,8 @@ For each record in the dataset it is provided:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
 
 ## Variable description
-Column names describe the variables by a series of discrete descriptive factors. They appear in the order presented in the following talbes from top to bottom. Each of the measurements are associated with a subject and an activity, see next table for an overview.
-
+Column names describe the variables by a series of discrete descriptive factors. They appear in the order presented in `Table 1` from top to bottom. Each of the measurements are associated with a subject and an activity, see `Table 2` for an overview.
+`Table 1`
 Variable name   | Description/value                       | Type    
 ----------------|-----------------------------------------|---------
 `dimension`     | frequency or time                       | factor  
@@ -37,8 +37,8 @@ Variable name   | Description/value                       | Type
 `method`        | mean or std (standard deviation)        | factor
 `axis`          | X, Y, Z or non                          | factor
 
-Each of the features are associated with a subject and an activity.
-
+Each of the features are associated with a subject and an activity, the columns containing this information is described in the table below.
+`Table 2`
 Variable name | Description       | Type    | value
 --------------|-------------------|---------|-------------
 `activityID`  | identifier        | int     | 1-6
