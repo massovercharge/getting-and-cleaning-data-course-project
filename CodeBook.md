@@ -1,5 +1,7 @@
 # Getting and Cleaning Data Project
 
+An auto-generated codebook is made when the run_analysis.R script is run, this is called "CodeBookAuto.R", and it contains the variable names of "tidy_data.R" along with a summary of the variables.
+
 ## Source data description
 The description included under this headline was sourced from [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). A citation is included under "Citation".
 
