@@ -8,7 +8,7 @@ This project revolves around the notions of getting and cleaning data. Thus, the
 The current assignment is solved using the statistical language R.
 
 ### Assignment
-The project includes four files in total
+The project includes
 * This README.md
 * The tidy_data.txt (which is created by run_analysis.R)
 * A CodeBook.md file describing the variables and processing steps performed
