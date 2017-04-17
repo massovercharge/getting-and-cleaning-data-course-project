@@ -78,4 +78,3 @@ The original feature names are written in a shot hand nomenclature. In this step
 ### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Based on the subset_data object a mean is calculated for all features for each subject and activity, and saved to a new object called "tidy_data" the data is then written to the working directory as "tidy_data.txt" with tap separation.
 
-# Tidy_data variables
