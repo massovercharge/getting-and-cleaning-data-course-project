@@ -3,15 +3,15 @@
 Github repository for Getting and Cleaning Data Course Project
 
 ### Project overview
-This project revolves around the notions of getting and cleaning data, thus the goal of the project is to make a tidy dataset which can be easily couples to downstream data processing. The data set used here along with a description can be found by going to [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+This project revolves around the notions of getting and cleaning data. Thus, the goal of the project is to make a tidy dataset which can be easily coupled to downstream data processing. A version of the data set used here along with a description can be found by going to [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
 
 The current assignment is solved using the statistical language R.
 
 ### Assignment
 The project includes four files in total
 * This README.md
-* A tidy dataset (which is created by run_analysis.R)
-* A CodeBook.md file describing the variables and processing setps performed
+* The tidy_data.txt (which is created by run_analysis.R)
+* A CodeBook.md file describing the variables and processing steps performed
 * An R script called run_analysis.R which performes the analysis described here:
 
 1. Merges the training and the test sets to create one data set.
