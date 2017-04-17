@@ -47,21 +47,21 @@ Variable name | Description       | Type    | value
 
 
 
-### Transformations
+## Transformations
 
 The following steps are performed by the run_analysis.R script. The current script assumes that the data is available in .zip format from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. The data is extracted to the current working directory and so is the resulting tidy_data.txt file.
 
-# 1. Merges the training and the test sets to create one data set.
+### 1. Merges the training and the test sets to create one data set.
 In the first processing step the training and test data sets are merged. The subject and activity data is merged by row, and the resulting data frame is merged with the features data by columns to make the rows identifiable by activity and subject. The subject column is named "subject" and activity is named "activity". The features are named using the "features.txt" file. The object containing all merged data is called "all_data".
 
 
-# 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 In this step mean and standard deviation features are extracted by searching the column names for "mean" and "std", next the new object is created based on these columns and the subject and activity identifiers. This object is named "subset_data".
 
-# 3. Uses descriptive activity names to name the activities in the data set
+### 3. Uses descriptive activity names to name the activities in the data set
 Based on the numeric activity identifiers a column of descriptive names are added from the "activity_labels.txt" file.
 
-# 4. Appropriately labels the data set with descriptive variable names.
+### 4. Appropriately labels the data set with descriptive variable names.
 The original feature names are written in a shot hand nomenclature. In this step the short hand names are written out in full except for std which is merely changed to capital letters (STD) to increase readability. No punctuation, brackets or alike was changed. Here is an overview of the changes:
 * Acc is changed to Accelerometer
 * Gyro is changed to Gyroscope
@@ -71,5 +71,5 @@ The original feature names are written in a shot hand nomenclature. In this step
 * f is written out to Frequency (strings beginning with "f")
 * t is written out to Time (strings beginning with "t")
 
-# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Based on the subset_data object a mean is calculated for all features for each subject and activity, and saved to a new object called "tidy_data" the data is then written to the working directory as "tidy_data.txt" with tap separation.
