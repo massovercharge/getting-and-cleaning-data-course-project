@@ -28,7 +28,7 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 Column names describe the variables by a series of discrete descriptive factors. They appear in the order presented in the following talbes from top to bottom. Each of the measurements are associated with a subject and an activity, see next table for an overview.
 
 Variable name   | Description/value                       | Type    
-----------------|--------------------------------------------------
+----------------|-----------------------------------------|---------
 `dimension`     | frequency or time                       | factor  
 `source`        | Body, BodyBody or gravity               | factor  
 `type`          | Accelerromater or Gyro                  | factor
@@ -40,9 +40,9 @@ Variable name   | Description/value                       | Type
 Each of the features are associated with a subject and an activity.
 
 Variable name | Description       | Type    | value
---------------|-----------------------------------------
+--------------|-------------------|---------|-------------
 `activityID`  | identifier        | int     | 1-6
-`activity`    | descriptive label | factor  | LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS
+`activity`    | descriptive label | factor  | LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS or WALKING_UPSTAIRS
 `subjectID`   | identifier        | int     | 1-30
 
 
